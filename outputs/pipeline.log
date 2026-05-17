@@ -1,0 +1,154 @@
+2026-04-26 22:37:34 | INFO     | Downloading MediaPipe face landmarker model (~30 MB)...
+2026-04-26 22:37:35 | INFO     | Model downloaded.
+2026-04-26 22:37:40 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-26 22:37:40 | INFO     | ━━━ Pipeline START: WhatsApp Video 2026-04-26 at 10.23.40 PM.mp4 ━━━
+2026-04-26 22:37:40 | INFO     | Video: WhatsApp Video 2026-04-26 at 10.23.40 PM.mp4 | 478x850 | source=30.1 FPS | effective=30.0 FPS
+2026-04-26 22:37:40 | DEBUG    | ROI preview saved → outputs\roi_preview_frame0000.jpg
+2026-04-26 22:37:44 | DEBUG    | Loaded 324 frames from WhatsApp Video 2026-04-26 at 10.23.40 PM.mp4
+2026-04-26 22:37:44 | DEBUG    | ROI 'forehead': 324 frames, 324 valid, mean=125.47
+2026-04-26 22:37:44 | DEBUG    | ROI 'left': 324 frames, 324 valid, mean=131.25
+2026-04-26 22:37:44 | DEBUG    | ROI 'right': 324 frames, 324 valid, mean=139.65
+2026-04-26 22:37:44 | DEBUG    | Butterworth BP filter: 0.7–3.0 Hz @ 30.0 FPS
+2026-04-26 22:37:44 | DEBUG    | ROI 'forehead' filtered — len=324
+2026-04-26 22:37:44 | DEBUG    | ROI 'left' filtered — len=324
+2026-04-26 22:37:44 | DEBUG    | ROI 'right' filtered — len=324
+2026-04-26 22:37:44 | DEBUG    | Signal plot saved → outputs\signal_plots.png
+2026-04-26 22:37:44 | DEBUG    | FFTAnalyzer: fps=30.0, nperseg_base=120
+2026-04-26 22:37:44 | INFO     | FFT: 60.0 BPM  (1.000 Hz) | confidence=0.365 | plausible=True
+2026-04-26 22:37:44 | INFO     | FFT: 60.0 BPM  (1.000 Hz) | confidence=0.264 | plausible=True
+2026-04-26 22:37:44 | INFO     | FFT: 60.0 BPM  (1.000 Hz) | confidence=0.301 | plausible=True
+2026-04-26 22:37:45 | DEBUG    | FFT plot saved → outputs\fft_psd.png
+2026-04-26 22:37:45 | DEBUG    | SyncChecker: max_lag=3 frames (100 ms)
+2026-04-26 22:37:45 | INFO     | Sync: corr=0.820 | lag=0 frames (0.0 ms) | phase_ok=True | corr_ok=True → sync=True
+2026-04-26 22:37:45 | DEBUG    | Sync plot saved → outputs\sync_xcorr.png
+2026-04-26 22:37:45 | INFO     | ━━━ VERDICT: REAL  (score=0.823, BPM=60.0, sync=True) ━━━
+2026-04-27 17:46:55 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-27 17:46:55 | INFO     | ━━━ Pipeline START: WhatsApp Image 2026-04-27 at 10.31.35 AM ━━━
+2026-04-27 17:52:38 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-27 17:52:38 | INFO     | ━━━ Image Analysis START: WhatsApp Image 2026-04-27 at 10.31.35 AM.jpg ━━━
+2026-04-27 17:52:38 | ERROR    | Detection failed: Image not found: WhatsApp Image 2026-04-27 at 10.31.35 AM.jpg
+2026-04-27 17:54:50 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-27 17:54:50 | INFO     | ━━━ Image Analysis START: WhatsApp Image 2026-04-27 at 10.31.35 AM.jpeg ━━━
+2026-04-27 17:54:50 | DEBUG    | DCT: mean_hf_ratio=0.0024 → score=0.508
+2026-04-27 17:54:50 | DEBUG    | Noise: consistency=0.861, energy_ratio=0.097 → score=0.479
+2026-04-27 17:54:50 | DEBUG    | Symmetry: mean_asym=0.3557 → score=0.000
+2026-04-27 17:54:50 | INFO     | ━━━ VERDICT: FAKE (score=0.371, dct=0.508, noise=0.479, sym=0.000) ━━━
+2026-04-27 17:58:26 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-27 17:58:26 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-27 18:04:35 | INFO     | ━━━ Image Analysis START: C:\Users\ADMIN\AppData\Local\Temp\tmp8xinqbd1.jpeg ━━━
+2026-04-27 18:04:35 | DEBUG    | DCT: mean_hf_ratio=0.0024 → score=0.508
+2026-04-27 18:04:35 | DEBUG    | Noise: consistency=0.861, energy_ratio=0.097 → score=0.479
+2026-04-27 18:04:35 | DEBUG    | Symmetry: mean_asym=0.3557 → score=0.000
+2026-04-27 18:04:35 | INFO     | ━━━ VERDICT: FAKE (score=0.371, dct=0.508, noise=0.479, sym=0.000) ━━━
+2026-04-27 18:05:14 | INFO     | ━━━ Pipeline START: C:\Users\ADMIN\AppData\Local\Temp\tmpr3wfb8kg.mp4 ━━━
+2026-04-27 18:05:15 | INFO     | Video: tmpr3wfb8kg.mp4 | 478x850 | source=30.1 FPS | effective=30.0 FPS
+2026-04-27 18:05:15 | DEBUG    | ROI preview saved → outputs\roi_preview_frame0000.jpg
+2026-04-27 18:05:36 | DEBUG    | Loaded 324 frames from tmpr3wfb8kg.mp4
+2026-04-27 18:05:36 | DEBUG    | ROI 'forehead': 324 frames, 324 valid, mean=125.47
+2026-04-27 18:05:36 | DEBUG    | ROI 'left': 324 frames, 324 valid, mean=131.25
+2026-04-27 18:05:36 | DEBUG    | ROI 'right': 324 frames, 324 valid, mean=139.65
+2026-04-27 18:05:36 | DEBUG    | Butterworth BP filter: 0.7–3.0 Hz @ 30.0 FPS
+2026-04-27 18:05:36 | DEBUG    | ROI 'forehead' filtered — len=324
+2026-04-27 18:05:36 | DEBUG    | ROI 'left' filtered — len=324
+2026-04-27 18:05:36 | DEBUG    | ROI 'right' filtered — len=324
+2026-04-27 18:05:38 | DEBUG    | Signal plot saved → outputs\signal_plots.png
+2026-04-27 18:05:38 | DEBUG    | FFTAnalyzer: fps=30.0, nperseg_base=120
+2026-04-27 18:05:38 | INFO     | FFT: 60.0 BPM  (1.000 Hz) | confidence=0.365 | plausible=True
+2026-04-27 18:05:38 | INFO     | FFT: 60.0 BPM  (1.000 Hz) | confidence=0.264 | plausible=True
+2026-04-27 18:05:38 | INFO     | FFT: 60.0 BPM  (1.000 Hz) | confidence=0.301 | plausible=True
+2026-04-27 18:05:41 | DEBUG    | FFT plot saved → outputs\fft_psd.png
+2026-04-27 18:05:41 | DEBUG    | SyncChecker: max_lag=3 frames (100 ms)
+2026-04-27 18:05:41 | INFO     | Sync: corr=0.820 | lag=0 frames (0.0 ms) | phase_ok=True | corr_ok=True → sync=True
+2026-04-27 18:05:42 | DEBUG    | Sync plot saved → outputs\sync_xcorr.png
+2026-04-27 18:05:42 | INFO     | ━━━ VERDICT: REAL  (score=0.823, BPM=60.0, sync=True) ━━━
+2026-04-27 18:07:14 | INFO     | ━━━ Image Analysis START: C:\Users\ADMIN\AppData\Local\Temp\tmp2h0u54vr.jpeg ━━━
+2026-04-27 18:07:14 | DEBUG    | DCT: mean_hf_ratio=0.0024 → score=0.508
+2026-04-27 18:07:14 | DEBUG    | Noise: consistency=0.861, energy_ratio=0.097 → score=0.479
+2026-04-27 18:07:14 | DEBUG    | Symmetry: mean_asym=0.3557 → score=0.000
+2026-04-27 18:07:14 | INFO     | ━━━ VERDICT: FAKE (score=0.371, dct=0.508, noise=0.479, sym=0.000) ━━━
+2026-04-27 18:12:49 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-27 18:12:49 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-27 18:13:42 | INFO     | ━━━ Image Analysis START: C:\Users\ADMIN\AppData\Local\Temp\tmph08dr4qa.jpg ━━━
+2026-04-27 18:13:42 | DEBUG    | DCT: mean_hf_ratio=0.0003 → score=0.501
+2026-04-27 18:13:42 | DEBUG    | Noise: consistency=0.908, energy_ratio=0.128 → score=0.518
+2026-04-27 18:13:42 | DEBUG    | Symmetry: mean_asym=0.4142 → score=0.572
+2026-04-27 18:13:42 | INFO     | ━━━ VERDICT: INCONCLUSIVE (score=0.525, dct=0.501, noise=0.518, sym=0.572) ━━━
+2026-04-27 18:15:03 | INFO     | ━━━ Image Analysis START: C:\Users\ADMIN\AppData\Local\Temp\tmpu3kdzrf_.jpg ━━━
+2026-04-27 18:15:04 | DEBUG    | DCT: mean_hf_ratio=0.0004 → score=0.501
+2026-04-27 18:15:04 | DEBUG    | Noise: consistency=0.908, energy_ratio=0.122 → score=0.515
+2026-04-27 18:15:04 | DEBUG    | Symmetry: mean_asym=0.4100 → score=0.600
+2026-04-27 18:15:04 | INFO     | ━━━ VERDICT: INCONCLUSIVE (score=0.531, dct=0.501, noise=0.515, sym=0.600) ━━━
+2026-04-27 18:19:47 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-27 18:19:47 | INFO     | ━━━ Pipeline START: WhatsApp Image 2026-04-27 at 10.31.35 AM ━━━
+2026-04-27 18:20:08 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-27 18:20:08 | INFO     | ━━━ Pipeline START: WhatsApp Video 2026-04-26 at 10.23.40 PM.mp4 ━━━
+2026-04-27 18:20:08 | INFO     | Video: WhatsApp Video 2026-04-26 at 10.23.40 PM.mp4 | 478x850 | source=30.1 FPS | effective=30.0 FPS
+2026-04-27 18:20:08 | DEBUG    | ROI preview saved → outputs\roi_preview_frame0000.jpg
+2026-04-27 18:20:12 | DEBUG    | Loaded 324 frames from WhatsApp Video 2026-04-26 at 10.23.40 PM.mp4
+2026-04-27 18:20:12 | DEBUG    | ROI 'forehead': 324 frames, 324 valid, mean=125.47
+2026-04-27 18:20:12 | DEBUG    | ROI 'left': 324 frames, 324 valid, mean=131.25
+2026-04-27 18:20:12 | DEBUG    | ROI 'right': 324 frames, 324 valid, mean=139.65
+2026-04-27 18:20:12 | DEBUG    | Butterworth BP filter: 0.7–3.0 Hz @ 30.0 FPS
+2026-04-27 18:20:12 | DEBUG    | ROI 'forehead' filtered — len=324
+2026-04-27 18:20:12 | DEBUG    | ROI 'left' filtered — len=324
+2026-04-27 18:20:12 | DEBUG    | ROI 'right' filtered — len=324
+2026-04-27 18:20:12 | DEBUG    | Signal plot saved → outputs\signal_plots.png
+2026-04-27 18:20:12 | DEBUG    | FFTAnalyzer: fps=30.0, nperseg_base=120
+2026-04-27 18:20:12 | INFO     | FFT: 60.0 BPM  (1.000 Hz) | confidence=0.365 | plausible=True
+2026-04-27 18:20:12 | INFO     | FFT: 60.0 BPM  (1.000 Hz) | confidence=0.264 | plausible=True
+2026-04-27 18:20:12 | INFO     | FFT: 60.0 BPM  (1.000 Hz) | confidence=0.301 | plausible=True
+2026-04-27 18:20:13 | DEBUG    | FFT plot saved → outputs\fft_psd.png
+2026-04-27 18:20:13 | DEBUG    | SyncChecker: max_lag=3 frames (100 ms)
+2026-04-27 18:20:13 | INFO     | Sync: corr=0.820 | lag=0 frames (0.0 ms) | phase_ok=True | corr_ok=True → sync=True
+2026-04-27 18:20:13 | DEBUG    | Sync plot saved → outputs\sync_xcorr.png
+2026-04-27 18:20:13 | INFO     | ━━━ VERDICT: REAL  (score=0.823, BPM=60.0, sync=True) ━━━
+2026-04-28 12:47:57 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-28 12:47:57 | INFO     | ━━━ Image Analysis START: WhatsApp Image 2026-04-28 at 12.44.44 PM.jpeg ━━━
+2026-04-28 12:47:57 | DEBUG    | DCT: mean_hf_ratio=0.0006 → score=0.502
+2026-04-28 12:47:57 | DEBUG    | Noise: consistency=0.854, energy_ratio=0.105 → score=0.480
+2026-04-28 12:47:57 | DEBUG    | Symmetry: mean_asym=0.1751 → score=1.000
+2026-04-28 12:47:57 | INFO     | ━━━ VERDICT: REAL (score=0.619, dct=0.502, noise=0.480, sym=1.000) ━━━
+2026-04-28 13:00:13 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-28 13:00:13 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-28 13:01:07 | INFO     | ━━━ Image Analysis START: C:\Users\ADMIN\AppData\Local\Temp\tmprcndsvib.jpg ━━━
+2026-04-28 13:01:08 | DEBUG    | DCT: mean_hf_ratio=0.0003 → score=0.501
+2026-04-28 13:01:08 | DEBUG    | Noise: consistency=0.908, energy_ratio=0.128 → score=0.518
+2026-04-28 13:01:08 | DEBUG    | Symmetry: mean_asym=0.4142 → score=0.572
+2026-04-28 13:01:08 | INFO     | ━━━ VERDICT: REAL (score=0.525, dct=0.501, noise=0.518, sym=0.572) ━━━
+2026-04-28 13:04:21 | INFO     | ━━━ Image Analysis START: C:\Users\ADMIN\AppData\Local\Temp\tmpk5bswfl0.jpeg ━━━
+2026-04-28 13:04:21 | DEBUG    | DCT: mean_hf_ratio=0.0053 → score=0.518
+2026-04-28 13:04:21 | DEBUG    | Noise: consistency=0.814, energy_ratio=0.093 → score=0.453
+2026-04-28 13:04:21 | DEBUG    | Symmetry: mean_asym=0.2220 → score=1.000
+2026-04-28 13:04:21 | INFO     | ━━━ VERDICT: REAL (score=0.616, dct=0.518, noise=0.453, sym=1.000) ━━━
+2026-04-28 13:05:25 | INFO     | ━━━ Image Analysis START: C:\Users\ADMIN\AppData\Local\Temp\tmpyms3oici.jpeg ━━━
+2026-04-28 13:05:25 | DEBUG    | DCT: mean_hf_ratio=0.0053 → score=0.518
+2026-04-28 13:05:25 | DEBUG    | Noise: consistency=0.814, energy_ratio=0.093 → score=0.453
+2026-04-28 13:05:25 | DEBUG    | Symmetry: mean_asym=0.2220 → score=1.000
+2026-04-28 13:05:25 | INFO     | ━━━ VERDICT: REAL (score=0.616, dct=0.518, noise=0.453, sym=1.000) ━━━
+2026-04-28 13:05:53 | INFO     | ━━━ Image Analysis START: C:\Users\ADMIN\AppData\Local\Temp\tmpe6wi1xco.jpeg ━━━
+2026-04-28 13:05:53 | DEBUG    | DCT: mean_hf_ratio=0.0053 → score=0.518
+2026-04-28 13:05:53 | DEBUG    | Noise: consistency=0.814, energy_ratio=0.093 → score=0.453
+2026-04-28 13:05:53 | DEBUG    | Symmetry: mean_asym=0.2220 → score=1.000
+2026-04-28 13:05:53 | INFO     | ━━━ VERDICT: REAL (score=0.616, dct=0.518, noise=0.453, sym=1.000) ━━━
+2026-04-28 13:07:15 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-28 13:07:15 | INFO     | ━━━ Image Analysis START: WhatsApp Image 2026-04-28 at 1.03.44 PM.jpeg ━━━
+2026-04-28 13:07:15 | DEBUG    | DCT: mean_hf_ratio=0.0053 → score=0.518
+2026-04-28 13:07:15 | DEBUG    | Noise: consistency=0.814, energy_ratio=0.093 → score=0.453
+2026-04-28 13:07:15 | DEBUG    | Symmetry: mean_asym=0.2220 → score=1.000
+2026-04-28 13:07:15 | INFO     | ━━━ VERDICT: REAL (score=0.616, dct=0.518, noise=0.453, sym=1.000) ━━━
+2026-04-28 16:19:23 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-28 16:19:23 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-28 16:20:24 | INFO     | ━━━ Image Analysis START: C:\Users\ADMIN\AppData\Local\Temp\tmpv_rp74af.jpeg ━━━
+2026-04-28 16:20:24 | DEBUG    | DCT: mean_hf_ratio=0.0024 → score=0.508
+2026-04-28 16:20:24 | DEBUG    | Noise: consistency=0.861, energy_ratio=0.097 → score=0.479
+2026-04-28 16:20:24 | DEBUG    | Symmetry: mean_asym=0.3557 → score=0.962
+2026-04-28 16:20:24 | INFO     | ━━━ VERDICT: REAL (score=0.611, dct=0.508, noise=0.479, sym=0.962) ━━━
+2026-04-28 20:53:28 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-28 20:53:28 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-28 20:53:46 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-28 20:53:46 | DEBUG    | FaceDetector initialised (MediaPipe Tasks API)
+2026-04-28 22:17:58 | INFO     | ━━━ Image Analysis START: C:\Users\ADMIN\AppData\Local\Temp\tmpwux9runr.jpeg ━━━
+2026-04-28 22:17:58 | DEBUG    | Face detection retry 1
+2026-04-28 22:17:58 | DEBUG    | Face detection retry 2
+2026-04-28 22:17:58 | DEBUG    | Face detection retry 3
+2026-04-28 22:17:58 | WARNING  | Face not detected in frame
